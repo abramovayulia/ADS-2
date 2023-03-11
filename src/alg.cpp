@@ -2,6 +2,7 @@
 #include <cstdint>
 #include "alg.h"
 
+
 double pown(double value, uint16_t n) {	
   if (n == 0) {
     return 1;
@@ -25,7 +26,7 @@ double calcItem(double x, uint16_t n) {
 double expn(double x, uint16_t count) {
   double sum = 1.0;
   for (count; count > 0; count--) {
-    sum += calcItem(x,count);
+    sum += calcItem(x, count);
   }
     return sum;
 }
