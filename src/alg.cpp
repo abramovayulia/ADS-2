@@ -1,7 +1,8 @@
 // Copyright 2022 NNTU-CS
 #include <cstdint>
 #include "alg.h"
-
+#include <iostream>
+using namespace std;
 
 double pown(double value, uint16_t n) {
 	if (n == 0) {
